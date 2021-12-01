@@ -14,7 +14,8 @@ tl
     y:-20,
     opacity:0,
     stagger:.3,
-    duration:1
+    duration:1,
+    pointerEvents:"none"
 
 },"-=.5")
 .to(".shift",{

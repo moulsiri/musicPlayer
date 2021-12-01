@@ -11,6 +11,7 @@
     }
     #midBar{
         font-size: 10px;
+        top:30%;
     }
     #mid img{
         height: 18vh;
@@ -32,5 +33,9 @@
     #ptxt{
         height: 4vh;
         width: 90%;
+    }
+    #pause{
+        top:41%;
+        left:70%;
     }
 }
