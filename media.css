@@ -1,0 +1,36 @@
+@media(max-width:500px){
+    #nav{
+        font-size: 10px;
+    }
+    #nlinks{
+        top:6%;
+        width:100%;
+    }
+    #nicons{
+        width:25%;
+    }
+    #midBar{
+        font-size: 10px;
+    }
+    #mid img{
+        height: 18vh;
+    }
+    #mid img:nth-child(1){
+        height: 26vh;
+    }
+    #btmBar{
+        padding: 0 5em;
+        font-size: 8px;
+    }
+    #main button{
+        font-size: 10px;
+    }
+    #song{
+        font-size: 10px;
+
+    }
+    #ptxt{
+        height: 4vh;
+        width: 90%;
+    }
+}
