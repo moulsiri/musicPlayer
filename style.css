@@ -11,11 +11,7 @@ html,body{
 #main{
     width:100%;
     min-height: 100vh;
-<<<<<<< HEAD
     background-image: url(../bg.png);
-=======
-    background-image: url(../bg.png);
->>>>>>> 8b44bf330c13cfe1ded436acd21d24d5dc0a5b56
     background-size: cover;
     background-position: center;
     overflow-y: hidden;
