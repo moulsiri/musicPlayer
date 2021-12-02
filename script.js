@@ -7,8 +7,7 @@ let audio=document.querySelector("audio")
 tl
 .from("#player",{
     display:"none",
-
-    y:100
+    y:20
 })
 .to(".lnk",{
     y:-20,
