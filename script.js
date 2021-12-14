@@ -3,23 +3,30 @@ let tl=gsap.timeline({paused:true});
 let btn=document.querySelector("button");
 let pause=document.querySelector("#pause");
 let audio=document.querySelector("audio")
+let media=window.matchMedia("(max-width:500px)");
 
 tl
 .from("#player",{
     display:"none",
-    y:20
+    y:40,
+    ease:Expo.easeInOut,
+    duration:1
+
 })
 .to(".lnk",{
     y:-20,
     opacity:0,
     stagger:.3,
     duration:1,
-    pointerEvents:"none"
+    pointerEvents:"none",
+    ease:Expo.easeInOut
+
 
 },"-=.5")
 .to(".shift",{
     y:-40,
-    duration:1
+    duration:1,
+    ease:Expo.easeInOut
 
 },"-=.5")
 .to("#main button",{
